@@ -1,0 +1,45 @@
+
+.listing-apply {
+  background: lightblue;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: -10px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid cadetblue;
+  border-radius: 10px;
+  font-size: 11pt;
+}
+
+.error-text {
+  color: red;
+  font-size: 9pt;
+  margin-top: -10px;
+}
+
+button.primary {
+  background-color: lightblue;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+button.primary:disabled {
+  background-color: cadetblue;
+  cursor: not-allowed;
+}
